@@ -1,0 +1,1 @@
+enum Colors { YELLOW, GREEN, BLUE, RED, PINK, VIOLET}
