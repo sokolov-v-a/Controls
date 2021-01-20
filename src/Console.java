@@ -25,4 +25,5 @@ public class Console implements OnClickListener {
         }
         System.out.println(sender.getClass().getName() + ": pushed, color changed! Curent color: " + curentColor);
     }
+
 }

@@ -7,7 +7,8 @@ public class Speaker implements OnClickListener {
     @Override
     public void clickAction(Control sender) {
         // TODO Auto-generated method stub
-        volume = volume + sender.step;
+//        volume = volume + ((Volume)sender).getStep();
+        volume = volume + ((Volume)sender).getStep();
         volume = (volume<0)?0:volume;
         System.out.println(sender.getClass().getName() + " " + name + "  Volume: " + (volume).toString());
     }
@@ -15,5 +16,5 @@ public class Speaker implements OnClickListener {
     public void mute(){
         volume=0;
     }
-    
+
 }

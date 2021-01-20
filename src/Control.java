@@ -3,7 +3,7 @@ import java.util.List;
 
 public abstract class Control {
     protected List<OnClickListener> listeners = new ArrayList<>();
-    int step;
+//    int step;
     public void onClick() {
         // TODO Auto-generated method stub
         for (OnClickListener onClickListener : listeners) {
